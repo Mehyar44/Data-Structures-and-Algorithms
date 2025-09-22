@@ -34,15 +34,18 @@ public class TwoSumFast {
 				System.out.println("Usage: java TwoSumFast <filename>");
 				return;
 			}
+			
 			java.util.List<Integer> list = new java.util.ArrayList<>();
 			java.io.BufferedReader br = new java.io.BufferedReader(new java.io.FileReader(args[0]));
 			String line;
+			
 			while ((line = br.readLine()) != null) {
 				line = line.trim();
 				if (!line.isEmpty()) {
 					list.add(Integer.parseInt(line));
 				}
 			}
+			
 			br.close();
 			int[] a = list.stream().mapToInt(i -> i).toArray();
 			System.out.println("Pairs that sum to zero:");
