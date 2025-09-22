@@ -5,7 +5,7 @@ public class TwoSumFast {
 		if (containsDuplicates(a)) throw new IllegalArgumentException("array contains duplicate integers");
 		for (int i = 0; i < n; i++) {
 			int j = Arrays.binarySearch(a, -a[i]);
-			if (j > i) StdOut.println(a[i] + " " + a[j]);
+			if (j > i) System.out.println(a[i] + " " + a[j]);
 		}
 	} 
 
