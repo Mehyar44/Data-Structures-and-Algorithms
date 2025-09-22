@@ -4,7 +4,7 @@ public class TwoSum {
     for (int i = 0; i < n; i++)
       for (int j = i+1; j < n; j++)
         if (a[i] + a[j] == 0)
-          StdOut.println(a[i] + " " + a[j]);
+          System.out.println(a[i] + " " + a[j]);
   }
   
     public static int count(int[] a) {
