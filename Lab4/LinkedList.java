@@ -6,7 +6,7 @@ public class LinkedList<E> implements List<E> {
 
 	private Node<E> head; // Reference to first node
 	private Node<E> tail; // Reference to last node
-	private int size;       // Number of elements in the list
+	private int size;     // Number of elements in the list
 
 	// Constructor initializes empty list
 	public LinkedList() {
