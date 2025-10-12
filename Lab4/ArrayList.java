@@ -14,7 +14,7 @@ public class ArrayList<E> implements List<E> {
 		size = 0;
 	}
   
-	// List Common Methods
+	// Common Methods
 	@Override
 	public boolean add(E e) {
 		enseCapacity(size + 1);
@@ -229,7 +229,7 @@ public class ArrayList<E> implements List<E> {
 		return arr;
 	}
 
-	// ArrayList Specific Methods
+	// Specific Methods
 	public void ensureCapacity(int minCapacity) {
 		if (minCapacity > elements.length) {
 			int newCapacity = Math.max(elements.length * 2, minCapacity);
