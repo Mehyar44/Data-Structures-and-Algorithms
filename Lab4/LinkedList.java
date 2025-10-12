@@ -15,7 +15,7 @@ public class LinkedList<E> implements List<E> {
 		size = 0;
 	}
 
-	// List Common Methods
+	// Common Methods
 	@Override
 	public boolean add(E e) {
 		addLast(e); // Add element to the end of the list
@@ -214,7 +214,7 @@ public class LinkedList<E> implements List<E> {
 		return arr;
 	}
 
-	// LinkedList Specific Methods
+	// Specific Methods
 	// Add element at beginning
 	public void addFirst(E e) {
 		Node<E> newNode = new Node<>(e, null, head);
