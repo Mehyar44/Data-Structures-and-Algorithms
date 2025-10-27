@@ -1,9 +1,9 @@
 public class Main {
-  public static void main(String[] args) {
+	public static void main(String[] args) {
 		Integer[] intArray = {1, 2, 3, 4, 5};
 		Double[] doubArray = {1.1, 2.2, 3.3, 4.4};
-    Character[] charArray = {'H','E','L','L','O'};
-    String[] strArray = {"once", "upon", "a", "time"};
+		Character[] charArray = {'H','E','L','L','O'};
+		String[] strArray = {"once", "upon", "a", "time"};
 		
 		printArray(intArray);
 		printArray(doubArray);
